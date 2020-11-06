@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+</head>
+<body>
+    <form>
+    <label>Odaberite pol</label>
+    <br>
+    <input type="radio" name="pol" value="m"/>Muski
+    <br>
+    <input type="radio" name="pol" value="z">Zenski
+
+    <p>
+        <label>Odaberite kurs programiranja</label><br>
+        Web programming<input type="radio" name="kurs" value="w">
+        <br>
+        QA<input type="radio" name="kurs" value="q">
+        <br>
+    </p>
+    <p>
+        JAVA <input type="checkbox" name="progr" value="java">
+        C <input type="checkbox" name="progr" value="C">
+        PHP <input type="checkbox" name="progr" value="php">
+        PYTHON <input type="checkbox" name="progr" value="python">
+    </p>
+    <p>
+        <input type="color" name="boja" value="#ff00ff">
+        <input type="file" name="fajl">
+    </p>
+    <p>
+        <label>Najzanimljivija lekcija</label>
+        <select name="lekcija">
+            <option value="html">HTML</option>
+            <option value="scc">CSS</option>
+            <option value="php">PHP</option>
+        </select>
+    </p>
+    <p>
+        <label>Izaberi kurs</label>
+        <select name="izborKursa">
+            <optgroup label="Beograd">
+                <option value="php">PHP</option>
+                <option value="java">JAVA</option>
+                <option value="qa">QA</option>
+            </optgroup>
+            <optgroup label="Nis">
+                <option value="php_n">PHP</option>
+                <option value="java_n">JAVA</option>
+                <option value="qa_n">QA</option>
+            </optgroup>
+            <optgroup label="K i M">
+                <option value="php">PHP</option>
+            </optgroup>
+            <optgroup label="Novi Sad">
+                <option value="qa">QA</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <input type="button" value="SUBMIT" onclick="alert('pozdrav')">
+        <input type="reset" value="RESETUJ">
+    </p>
+    <textarea rows="10" cols="40"></textarea>
+</form>
+</html>
